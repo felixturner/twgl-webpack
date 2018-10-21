@@ -1,0 +1,22 @@
+{
+	"name": "twgl-webpack",
+	"version": "1.0.0",
+	"description": "twgl-webpack ES6 build",
+	"scripts": {
+		"start": "webpack-dev-server --port 3000 --config webpack.dev.js --watch --colors --progress --host 0.0.0.0",
+		"build": "webpack --config webpack.prod.js --colors --progress"
+	},
+	"author": "felixturner",
+	"license": "MIT",
+	"dependencies": {
+		"npm": "^6.4.1",
+		"stats.js": "^0.17.0",
+		"twgl.js": "^4.5.2"
+	},
+	"devDependencies": {
+		"webpack": "^4.19.0",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.8",
+		"webpack-merge": "^4.1.4"
+	}
+}
