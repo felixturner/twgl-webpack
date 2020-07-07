@@ -9,7 +9,7 @@
 	"author": "felixturner",
 	"license": "MIT",
 	"dependencies": {
-		"npm": "^6.11.2",
+		"npm": "^6.14.6",
 		"stats.js": "^0.17.0",
 		"twgl.js": "^4.5.2"
 	},
